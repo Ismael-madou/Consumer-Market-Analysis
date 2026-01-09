@@ -1,0 +1,44 @@
+# =========================
+# OS / IDE
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+
+# =========================
+# Logs & temp
+# =========================
+*.log
+logs/
+tmp/
+temp/
+
+# =========================
+# Build / cache
+# =========================
+build/
+dist/
+target/
+
+# =========================
+# Git LFS
+# =========================
+# Ne pas ignorer .gitattributes
+!.gitattributes
